@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.37);
+}
+
+.title {
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.87);
+    align-self: flex-start;
+}
+
